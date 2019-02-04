@@ -19,7 +19,7 @@ public class TrainControllerImpl implements TrainController {
 		        referenceSpeed = 0;
             }
 		}
-
+q
 		enforceSpeedLimit();
 	}
 
