@@ -14,7 +14,7 @@ public class TrainUserImpl implements TrainUser {
 
 	@Override
 	public boolean getAlarmFlag() {
-		if(this.joystickPosition>3)
+		if(this.joystickPosition>4)
 			return true;
 		return false;
 	}
