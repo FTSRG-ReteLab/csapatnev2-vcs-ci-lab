@@ -15,11 +15,11 @@ public class TrainControllerImpl implements TrainController {
 					Thread.sleep(1000);
 				}
 				catch (InterruptedException e) {
-					System.out.println(e.printStackTrace());
+					e.printStackTrace();
 				}
 				followSpeed();
 			}
-		}
+		};
 		thread.start();
 	}
 
