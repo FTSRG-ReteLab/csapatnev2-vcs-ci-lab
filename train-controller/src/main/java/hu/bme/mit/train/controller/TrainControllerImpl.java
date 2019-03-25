@@ -69,7 +69,7 @@ public class TrainControllerImpl implements TrainController {
 				try {
 					sleep(500);
 				} catch (InterruptedException e) {
-					e.printStackTrace();
+					Thread.currentThread().interrupt();
 				}
 			}
 		}
